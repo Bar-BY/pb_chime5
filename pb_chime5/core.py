@@ -82,7 +82,9 @@ class WPE:
 
         if debug:
             self.locals = locals()
-
+        f= open("guru99.txt","w+")
+        f.write("This is a test ...")
+        f.close()
         return Obs
 
 
